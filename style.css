@@ -1,0 +1,36 @@
+body {
+background-color: azure;    
+}
+
+h1 {
+color:rgb(63, 17, 226);
+font-family: "pobeda-bold1";
+}
+
+h2 {
+    color:black;
+}
+
+a {
+    color:rgb(40, 7, 140);
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color:rgb(227, 20, 158);   
+}
+
+img {
+    width:500px ;/* px -пикселей */
+    border: 2px solid rgb(63, 17, 226);
+    margin-left: 50px;
+}
+
+.bigText {
+    font-size: 1.3rem;
+}
+
+@font-face {
+    font-family: "Teddy-bear";
+    src:url(teddy-bear.ttf);
+}
